@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary test files generated during testing
+data/decrypted_*.txt
+data/unit_test_lab.txt*
+data/test_xray*.png
+data/test_unit_test_lab*

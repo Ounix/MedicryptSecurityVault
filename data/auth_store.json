@@ -1,0 +1,18 @@
+{
+  "dr_hartono": {
+    "username": "dr_hartono",
+    "full_name": "Dr. dr. Hartono Sp.PD-KGEH",
+    "doctor_nip": "198204122010121002",
+    "role": "Chief Medical Specialist & Cryptography Vault Custodian",
+    "password_hash": "pbkdf2_sha256$100000$e6270a22d165f79583e4e0fa874d82e8$86ac503f6b3b26373a64ceca511cf7f9576c2fe7b30f3f3be6acfc354708f14d",
+    "biometrics_enrolled": false
+  },
+  "testing": {
+    "username": "testing",
+    "full_name": "Dr. dr. Hartono Sp.PD-KGEH",
+    "doctor_nip": "198204122010121002",
+    "role": "Chief Medical Specialist & Cryptography Vault Custodian",
+    "password_hash": "pbkdf2_sha256$100000$d171c5185e4464f2d59ba7e637ccb750$0cc43a9aa6e34550eb0bfd4262af75574ce60de2971ed01075552791fc5d8470",
+    "biometrics_enrolled": true
+  }
+}

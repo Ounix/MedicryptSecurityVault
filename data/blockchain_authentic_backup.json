@@ -1,0 +1,50 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-01-01 00:00:00",
+    "asset_id": "GENESIS-ASSET-000",
+    "asset_name": "MediCrypt Root Genesis Security Anchor",
+    "patient_id": "SYSTEM-ROOT",
+    "data_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "doctor_signer": "Hospital Chief Medical Board",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 17897,
+    "hash": "000afdb8d7533bea487a201f06d66f27c6896f30cb6dabefab824c52a3f90223"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-11-10 20:48:08",
+    "asset_id": "AST-2026-BIOPSY-01",
+    "asset_name": "Hasil Biopsi Patologi Anatomi - Nodul Hepar",
+    "patient_id": "RM-2026-0081",
+    "data_hash": "18aa7a194b104c798204e598aca750c2fee6e2b693ff8145b92db81ca992ff5d",
+    "doctor_signer": "dr_hartono",
+    "previous_hash": "000afdb8d7533bea487a201f06d66f27c6896f30cb6dabefab824c52a3f90223",
+    "nonce": 891,
+    "hash": "0000786fcb73fc4f2f929e153b5018a5080c58c308b128462500d24469bea022"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-11-10 20:48:08",
+    "asset_id": "AST-2026-SURGERY-CONSENT",
+    "asset_name": "Surat Informed Consent Operasi Reseksi Laparoskopi",
+    "patient_id": "RM-2026-0081",
+    "data_hash": "4a1551c53fa8f0761f816501c180cb31d394afd911262b80904044940e65cf44",
+    "doctor_signer": "dr_hartono",
+    "previous_hash": "0000786fcb73fc4f2f929e153b5018a5080c58c308b128462500d24469bea022",
+    "nonce": 2984,
+    "hash": "000fb413bb9d4b98b321ed356208b2f8ae4639ae8a7a2672fa7112f8d164b77a"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-11-10 20:48:08",
+    "asset_id": "AST-SURGERY-REPORT-99",
+    "asset_name": "Laporan Operasi Reseksi Hepar",
+    "patient_id": "RM-2026-0081",
+    "data_hash": "abc123sha256hashdummy",
+    "doctor_signer": "dr_hartono",
+    "previous_hash": "000fb413bb9d4b98b321ed356208b2f8ae4639ae8a7a2672fa7112f8d164b77a",
+    "nonce": 5439,
+    "hash": "0006e63012ecb0e9f1cbacda6108f641df6060a50f2c30b0966e13898ed0a55c"
+  }
+]
