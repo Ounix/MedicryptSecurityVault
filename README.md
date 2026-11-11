@@ -86,13 +86,18 @@ Berikut urutan demo yang direkomendasikan saat presentasi:
 5. Klik **"Ekstrak & Dekripsi Pesan Rahasia"** $\to$ Pesan rahasia kembali terbaca secara sempurna.
 
 ### Tahap 6: Blockchain Aset Medis & Simulasi Serangan (Kriteria 7)
-1. Buka tab **"⛓ Blockchain Aset Medis"**.
-2. Tunjukkan bahwa pada kondisi awal, seluruh blok berstatus **🟢 STATUS RANTAI: VALID (HIJAU)** (Root Genesis Block, Blok #1 Hasil Biopsi, Blok #2 Informed Consent).
-3. Klik tombol **"🚨 Simulasi Serangan Hacker (Ubah Data)"** $\to$ Sistem mensimulasikan peretasan di mana data pada Blok #1 diubah secara paksa tanpa mining.
-4. **Status seketika berubah merah (KECURANGAN TERDETEKSI)**: Blok #1 disorot merah karena hash hasil kalkulasi ulang tidak cocok dengan hash yang tercatat di rantai. Ini membuktikan sifat *tamper-evident* blockchain.
-5. Tombol aksi secara otomatis berubah menjadi tombol hijau **"🛡️ Validasi & Benarkan Integritas (Konsensus Otomatis)"**.
-6. Klik tombol hijau tersebut $\to$ Mekanisme konsensus kriptografi secara otomatis mendeteksi blok palsu, menolaknya, dan memulihkan data sah asli kembali utuh 100% (**Status kembali HIJAU**).
-7. Demonstrasikan tombol **"⛏️ Tambah & Tambang Aset Baru (PoW)"** untuk menambahkan dokumen baru atau menyinkronkan rekam medis dari database EHR secara langsung.
+1. Buka tab **"⛓️ Blockchain Aset Medis"**.
+2. Tunjukkan kartu-kartu blok (Root Genesis Block, Blok #1 Hasil Biopsi, Blok #2 Informed Consent).
+3. Klik **"Validasi Integritas Seluruh Rantai"** $\to$ Status Hijau: Seluruh blok sah.
+4. Klik tombol **"🚨 Simulasi Serangan Hacker (Ubah Data)"** $\to$ Sistem mengubah isi data pada Blok #1 secara paksa.
+5. Klik kembali **"Validasi Integritas Seluruh Rantai"** $\to$ **STATUS BERUBAH MERAH ALARM:** Sistem secara matematis mendeteksi bahwa hash Blok #1 tidak cocok dengan `previous_hash` Blok #2! Ini adalah pembuktian konkret konsep *immutability* blockchain.
+6. Klik **"Reset Ledger"** untuk mengembalikan ke kondisi semula.
+
+### Tahap 7: Uji Kriptanalisis & Evaluasi Matematis
+1. Buka tab **"📊 Kriptanalisis & Benchmark"**.
+2. Klik **"Hitung Avalanche Effect"** $\to$ Tunjukkan bahwa perbedaan 1 huruf menghasilkan **$\approx 50\%$ bit ciphertext yang berubah (Strict Avalanche Criterion - SAC)**.
+3. Klik **"Hitung Entropi Shannon"** $\to$ Tunjukkan nilai entropi ciphertext mendekati **8.0000 bits/byte**, membuktikan distribusi acak sempurna yang kebal terhadap serangan analisis frekuensi huruf.
+4. Klik **"Jalankan Stress-Test Kecepatan"** $\to$ Menampilkan grafik throughput per detik.
 
 ---
 
